@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #fff;
+    font-family: Roboto;
+}
+
+/* navigation bar */
+.nav-bar {
+    background-color: #1F2937;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 2% 15%;
+    justify-content: space-between;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+li,
+a {
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3883F6;
+}
+
+/* Main section */
+.text {
+    display: flex;
+    gap: 10px;
+    padding: 10% 15%;
+    background-color: #1F2937;
+    justify-content: center;
+}
+
+.main-txt {
+    width: 60%;
+
+}
+
+main-txt,
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.main-txt p {
+    color: #adafb3;
+
+}
+
+.img {
+    width: 40%;
+}
+
+.first-pic {
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+}
+
+button {
+    color: #fff;
+    background-color: #3883F6;
+    padding: 3px 25px;
+    margin: 4px;
+    border: 4px solid #3883F6;
+    border-radius: 4px;
+}
+
+/* people and testimonials*/
+.info {
+    background-color: #fff;
+    text-align: center;
+    padding: 5% 15%;
+}
+
+.info h2 {
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    gap: 15px;
+    padding: 2% 8%;
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* quotes */
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-size: 20px;
+    padding: 5%;
+}
+
+.quote p {
+    width: 50%;
+}
+
+.quote-author {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.action-bg {
+    background-color: #fff;
+    padding: 100px;
+}
+
+.action {
+    background-color: #3883F6;
+    color: #f9faf8;
+    display: flex;
+    padding: 5%;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.ft-btn {
+    border: 2px solid #f9faf8;
+    border-radius: 4px;
+}
+
+/* footer */
+
+footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px;
+}
